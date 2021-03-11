@@ -1,0 +1,21 @@
+.headerDiv{
+  width: 1200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.headerDiv h3{
+  color: whitesmoke;
+  text-decoration: none;
+}
+/* responsiveness */
+@media(max-width:992px){
+
+  .headerDiv{
+      width: 100%; 
+  } 
+}
+@media(max-width:668px){
+  .headerDiv{
+      width: 100%;
+  }
+}

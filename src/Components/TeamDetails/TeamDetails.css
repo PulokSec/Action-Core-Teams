@@ -1,0 +1,24 @@
+.info{
+  width:1000px;
+  border-radius: 10px;
+  margin-left: 150px;
+}
+.cardInfo{
+  display: flex;
+  justify-content: center;
+}
+/* responsiveness */
+@media(max-width:992px){
+
+  .info{
+      width: 100%; 
+  }  
+}
+@media(max-width:668px){
+  .info{
+      width: 50%;
+  }
+  .cardInfo{
+    display:inline;
+  }
+}
